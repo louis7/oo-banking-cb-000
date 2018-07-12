@@ -42,6 +42,8 @@ def reverse_transfer
     @receiver.balance -= @amount
   else
     return "error"
+end
+
 
 end
 
