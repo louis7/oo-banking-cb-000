@@ -28,6 +28,6 @@ def valid?
     return false
 end
 
-
+end
 
 end
