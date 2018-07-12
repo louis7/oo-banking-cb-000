@@ -18,7 +18,7 @@ def deposit (num)
 end
 
 def display_balance
-  return " your balance ia #{@balance}"
+  return " your balance is #{@balance}"
 end
 
 
