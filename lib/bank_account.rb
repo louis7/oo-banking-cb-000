@@ -1,5 +1,5 @@
 class BankAccount
-attr_accessor :@account
+attr_accessor :account
 
 
 
