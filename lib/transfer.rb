@@ -14,7 +14,7 @@ attr_accessor :status
 
 
 def valid?
-  if sender.status == "open" && receiver.status == "open"
+  if sender.valid? ==true && receiver.valid? ==true
     return true
   else
     return false
