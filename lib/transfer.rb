@@ -24,7 +24,7 @@ end
 def execute_transaction
   if self.valid? == true
 
-
+end
 
 end
 
