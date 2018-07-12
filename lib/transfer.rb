@@ -27,7 +27,7 @@ def execute_transaction
     @receiver +=@amount
     self.status = "completed"
     return self.status
-else 
+else
    return "invalid"
 end
 
