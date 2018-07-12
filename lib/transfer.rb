@@ -19,11 +19,10 @@ def valid?
   else
     return false
 end
-
+end
 
 
 
 
 
 end
-
