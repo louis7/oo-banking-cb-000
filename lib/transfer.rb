@@ -28,7 +28,7 @@ def execute_transaction
     self.status = "complete"
     return self.status
 else
-   return "invalid"
+   return "Transaction rejected. Please check your account balance."
 end
 
 end
