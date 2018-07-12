@@ -1,6 +1,7 @@
 class BankAccount
 attr_reader :name
 attr_reader :status
+attr_reader :balance
 
 
 
@@ -14,11 +15,10 @@ end
 
 def deposit (num)
   @balance =+num
-
 end
 
 def display_balance
-  @balance
+  return " your balance ia #{@balance}"
 end
 
 
