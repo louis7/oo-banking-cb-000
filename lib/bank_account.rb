@@ -14,7 +14,7 @@ end
 
 
 def deposit (num)
-  @balance =+num
+  @balance +=num
 end
 
 def display_balance
