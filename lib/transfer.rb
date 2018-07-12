@@ -40,7 +40,9 @@ def reverse_transfer
   if self.status == "complete" && self.valid? == true
     @sender.balance += @amount
     @receiver.balance -= @amount
-    
+  else
+    return "error"
+
 end
 
 
