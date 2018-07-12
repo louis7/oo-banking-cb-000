@@ -11,5 +11,5 @@ attr_accessor :status
     @money = money
     @status = "pending"
   end
-  
+
 end
