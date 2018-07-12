@@ -22,7 +22,7 @@ def display_balance
 end
 
 def valid?
-  if @status == "open"
+  if self.status == "open"
     return true
   else
     return false
