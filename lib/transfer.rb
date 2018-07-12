@@ -12,4 +12,18 @@ attr_accessor :status
     @status = "pending"
   end
 
+
+def valid?
+  if sender.status == "open" && receiver.status == "open"
+    return true
+  else
+    return false
 end
+
+
+
+
+
+
+end
+
