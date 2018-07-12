@@ -33,7 +33,7 @@ end
 
 
 def close_account
-  self.status = "close"
+  self.status = "closed"
   self.balance = 0
 end
 
