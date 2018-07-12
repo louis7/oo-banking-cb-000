@@ -14,14 +14,19 @@ attr_accessor :status
 
 
 def valid?
-  if sender.valid? ==true && receiver.valid? ==true
+  if @sender.valid? ==true && @receiver.valid? ==true
     return true
   else
     return false
 end
 end
 
+def execute_transaction
+  if self.valid? == true
 
+
+
+end
 
 
 
