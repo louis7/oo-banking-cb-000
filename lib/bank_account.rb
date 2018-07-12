@@ -1,5 +1,7 @@
 class BankAccount
 attr_accessor :name
+attr_reader :balance
+attr_reader :reader
 
 
 
